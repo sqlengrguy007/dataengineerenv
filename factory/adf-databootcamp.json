@@ -1,0 +1,9 @@
+{
+	"name": "adf-databootcamp",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f3468fb3-bcd6-4f72-95a1-03b1d4c4a52d",
+		"tenantId": "b8989153-1c88-4b4f-b57a-add872fea8f2"
+	}
+}
