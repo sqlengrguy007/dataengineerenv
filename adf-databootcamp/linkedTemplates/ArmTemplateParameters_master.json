@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-databootcamp"
+		},
+		"linkedService1_accountKey": {
+			"value": ""
+		},
+		"ls_azuresqldatacamp_password": {
+			"value": ""
+		},
+		"ls_dedsqldatacamp_password": {
+			"value": ""
+		},
+		"linkedService1_properties_typeProperties_url": {
+			"value": "https://datastagingadls.dfs.core.windows.net/"
+		},
+		"ls_azuresqldatacamp_properties_typeProperties_server": {
+			"value": "svrbootcamp.database.windows.net"
+		},
+		"ls_azuresqldatacamp_properties_typeProperties_database": {
+			"value": "dbdatabootcamp"
+		},
+		"ls_azuresqldatacamp_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"ls_dedsqldatacamp_properties_typeProperties_server": {
+			"value": "svrbootcamp.database.windows.net"
+		},
+		"ls_dedsqldatacamp_properties_typeProperties_database": {
+			"value": "deddwhbootcamp"
+		},
+		"ls_dedsqldatacamp_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
